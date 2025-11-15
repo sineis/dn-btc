@@ -1,0 +1,31 @@
+{
+  "name": "btc",
+  "version": "1.0.0",
+  "description": "BTC Finder - Ferramenta de busca de chaves Bitcoin",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "nodemon src/main.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "chalk": "^5.3.0",
+    "coinkey": "^3.0.0",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-basic-auth": "^1.2.1",
+    "node-fetch": "^3.3.2",
+    "postcss": "^8.4.38",
+    "socket.io": "^4.7.5",
+    "tailwindcss": "^3.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
